@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "baskerville";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf" format('ttf'));
+}
+
+@font-face {
+  font-family: "baskerville";
+  font-weight: 800;
+  font-style: normal;
+  src: url("fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf" format('ttf'));
+}
+
+@font-face {
+  font-family: "montserrat";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/Montserrat/Montserrat-Regular.ttf") format('ttf');
+}
+@font-face {
+  font-family: "montserrat";
+  font-weight: 800;
+  font-style: normal;
+  src: url("fonts/Montserrat/Montserrat-Bold.ttf") format('ttf');
+}
+@font-face {
+  font-family: "montserrat";
+  font-weight: 600;
+  font-style: normal;
+  src: url("fonts/Montserrat/Montserrat-SemiBold.ttf") format('ttf');
+}
+@font-face {
+  font-family: "montserrat";
+  font-weight: 500;
+  font-style: normal;
+  src: url("fonts/Montserrat/Montserrat-Medium.ttf") format('ttf');
+}
+
+@theme {
+  --color-blue1: oklch(0.95 0.0244 242.34); 
+  --color-blue2: oklch(0.9 0.0542 237.4);
+  --color-blue3: oklch(0.7 0.0959 221.65); 
+  --color-blue4: oklch(0.65 0.145 238.98);
+  --color-blue5: oklch(0.66 0.1469 238.83);
+  --color-blue6: oklch(0.39 0.0837 239.78);
+  --color-blue7: oklch(0.45 0.1018 240.84);
+  --color-gradient1: oklch(0.63 0.1398 240.77);
+
+  --color-tagYellow: oklch(0.95 0.0305 57.92);
+  --color-textTagYellow : oklch(0.76 0.1632 70.1);
+  --color-tagGreen: oklch(0.93 0.0269 176.32);
+  --color-textTagGreen : oklch(0.75 0.1347 168.81);
+  --color-tagBlue: oklch(0.92 0.0244 242.34);
+  --color-tagRed: oklch(0.93 0.0548 330.73);
+  --color-textTagRed : oklch(0.63 0.2766 334.69);
+
+  --color-mainOrange: oklch(0.7614 0.1632 70.1);
+  --color-mainRed: oklch(0.6578 0.1844 23.66);
+
+  --color-textBlack: oklch(0.3867 0 0);
+
+  --font-baskerville: 'baskerville', serif;
+  --font-montserrat: 'montserrat', sans-serif;
+}
+

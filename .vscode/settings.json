@@ -1,0 +1,9 @@
+{
+  "liveServer.settings.port": 5501,
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.enablePaths": [
+    "supabase/functions"
+  ]
+}
